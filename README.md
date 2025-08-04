@@ -19,7 +19,8 @@ This Python script converts Twitch chat logs in JSON format into Advanced SubSta
 
 ## Requirements
 
-The script is written in Python 3 and does not require any external libraries beyond the standard ones.
+* The script is written in Python 3 and does not require any external libraries.
+* Your chat log `.json` files must be downloaded using [TwitchDownloader](https://github.com/lay295/TwitchDownloader).
 
 ## Installation
 

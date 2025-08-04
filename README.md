@@ -25,7 +25,7 @@ This Python script converts Twitch chat logs in JSON format into Advanced SubSta
 
 ## Installation
 
-1.  Clone this repository or download the `v4converter.py` script.
+1.  Clone this repository or download the `converter.py` script.
 2.  No further installation is needed.
 
 ## Usage
@@ -37,7 +37,7 @@ You can run the script from your terminal.
 To convert a single JSON file, provide the path to the file:
 
 ```bash
-python v4converter.py /path/to/your/chatlog.json
+python converter.py /path/to/your/chatlog.json
 ```
 
 ### Converting All Files in a Directory
@@ -45,20 +45,20 @@ python v4converter.py /path/to/your/chatlog.json
 To convert all `.json` files in the current directory, use the `--all` flag:
 
 ```bash
-python v4converter.py --all
+python converter.py --all
 ```
 
 To process all `.json` files in a specific directory, provide the path to the directory along with the `--all` flag:
 
 ```bash
-python v4converter.py /path/to/your/logs --all
+python converter.py /path/to/your/logs --all
 ```
 
 The script will create an `.ass` file with the same name as the input JSON file in the same directory.
 
 ## Customization
 
-To change the appearance of the chat overlay (e.g., fonts, colors, sizes, etc.), you can modify the user-definable variables at the top of the `v4converter.py` script.
+To change the appearance of the chat overlay (e.g., fonts, colors, sizes, etc.), you can modify the user-definable variables at the top of the `converter.py` script.
 
 ```python
 # --- User-definable Variables ---

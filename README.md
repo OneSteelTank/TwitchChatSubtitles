@@ -1,6 +1,6 @@
 # Twitch Chat to ASS Subtitle Converter
 
-This Python script converts Twitch chat logs in JSON format into Advanced SubStation Alpha (.ass) subtitle files. This allows you to overlay a customizable chat box onto your video content.
+This Python script converts Twitch chat logs in JSON format into Advanced SubStation Alpha (.ass) subtitle files. This allows you to overlay a customizable chat box onto your video content. Written with Gemini 2.5 Pro.
 
 ## Features
 

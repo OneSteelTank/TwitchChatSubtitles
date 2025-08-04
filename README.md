@@ -16,6 +16,7 @@ This Python script converts Twitch chat logs in JSON format into Advanced SubSta
 * **User-Specific Colors:** Displays usernames in their assigned Twitch colors.
 * **Badges:** Shows icons for Broadcaster, Moderator, and VIP users.
 * **Batch Processing:** Convert a single JSON file or all JSON files in a directory at once.
+<img width="399" height="207" alt="image" src="https://github.com/user-attachments/assets/3b3b1670-cd50-43da-b6dc-ff593d9de3c3" />
 
 ## Requirements
 
